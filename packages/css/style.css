@@ -14,9 +14,9 @@
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --title-color: hsl(var(--hue-color), 15%, 25%);
+  --text-color: hsl(var(--hue-color), 15%, 45%);
+  --text-color-light: hsl(var(--hue-color), 15%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
@@ -64,8 +64,8 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.813rem;
+    --small-font-size: 0.880rem;
+    --smaller-font-size: 0.825rem;
   }
 }
 
@@ -143,23 +143,29 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
-  margin-bottom: 40px;
+  padding: 1rem 0 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .section__title {
   font-size: var(--h1-font-size);
+  margin-bottom: 0.5rem;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-2);
+  margin-bottom: 0.5rem;
 }
 
 .section__title,
 .section__subtitle {
   text-align: center;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 /*==================== LAYOUT ====================*/
@@ -410,7 +416,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 150px;
   border-radius: 0.5rem;
   justify-self: center;
   align-items: center;
