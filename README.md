@@ -19,7 +19,7 @@ The website showcases academic background, technical skills, certifications, and
 •	Boxicons - Icons
 
 3. Setup Instructions
-•	To run this locally:
+• To run this locally:
 Open index.html in any browser.
 • To deploy it online:
 Push the folder to a GitHub repository.
