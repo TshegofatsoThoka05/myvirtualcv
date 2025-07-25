@@ -5,18 +5,18 @@ This is a professional portfolio website for Tshegofatso Barvely Thoka, a final-
 The website showcases academic background, technical skills, certifications, and services, and serves as a digital resume to connect with potential employers or collaborators.
 
 1. Key Features
-•	Responsive and mobile-friendly layout
-•	CV download option
-•	Dynamic skill bars and theme toggle
-•	Certificate and service highlights
-•	Integrated contact form and social media links
+• Responsive and mobile-friendly layout
+• CV download option
+• Dynamic skill bars and theme toggle
+• Certificate and service highlights
+• Integrated contact form and social media links
 
 2. Technologies Used
-•	HTML5 - Structure and content
-•	CSS3 - Styling and responsiveness
-•	JavaScript (Vanilla) - Interactivity and animations
-•	Google Fonts - Custom typography
-•	Boxicons - Icons
+• HTML5 - Structure and content
+• CSS3 - Styling and responsiveness
+• JavaScript (Vanilla) - Interactivity and animations
+• Google Fonts - Custom typography
+• Boxicons - Icons
 
 3. Setup Instructions
 • To run this locally:
